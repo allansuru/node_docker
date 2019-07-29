@@ -1,0 +1,12 @@
+command docker
+
+docker build -t allansuru .
+docker run -p 3000:3000 -d allansuru
+
+docker images
+
+qnd rodar
+ docker ps
+
+
+ remover tudo q nao tiver sendo utilizado - docker system prune
